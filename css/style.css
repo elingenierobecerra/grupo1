@@ -28,13 +28,12 @@
 .grid2{
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 32% 68%;
+    grid-template-rows: 25% 75%;
 }
 .grid2 > :nth-child(1){
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid black;
 }
 .grid2{
     width: 100%;
@@ -74,9 +73,10 @@
     width: 100vw;
     height: 100vh;
     position: relative;
+    margin-top: 5px;
 }
 .cuadro{
-    width: 30%;
+    width: 45%;
     height: 100%;
     border: 3px solid black;
     display: flex;
@@ -89,12 +89,11 @@
     border: 3px solid black;
 }
 .content{
-    width: 45%;
-    height: 45%;
+    width: 80%;
+    height: 50%;
     border: solid black;
 }
 .cont-pa{
-    border: solid black;
     display: flex;
     flex-direction: column;
     width: 100%;

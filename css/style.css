@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.content{
+    width: 55vh;
+    height: 45vh;
+    border: solid black;
+    margin-left: 280px;
+    margin-top:  50px;
+    margin-top: 7%;
+}

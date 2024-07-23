@@ -9,7 +9,7 @@
     height: 100vh;
     background-color: blue;
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 70% 30%;
 
 }
 .container-padre div{

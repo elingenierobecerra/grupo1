@@ -11,16 +11,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .izquierda{
-    border: solid black;
-    background-color:yellow;
+    font-size: 40px;
     height: fit-content;
     width: fit-content;
 }
+
 .img{
     height: 120px;
     width: 120px;
-
-
+    margin-top:50px;
 }

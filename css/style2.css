@@ -1,0 +1,26 @@
+*{
+    padding:0px;
+    height: 0px;
+    box-sizing: border-box;
+}
+.content{
+    height: 70vw;
+    width: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.izquierda{
+    border: solid black;
+    background-color:yellow;
+    height: fit-content;
+    width: fit-content;
+}
+.img{
+    height: 120px;
+    width: 120px;
+
+
+}

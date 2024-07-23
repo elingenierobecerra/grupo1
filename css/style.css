@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    
+}
+.content> :nth-child(1){
+    width: 200px;
+    height: 300px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: solid 2px black
+}
+.content>:nth-child(1) :nth-child(1){
+    width: 25%;
+    height: 80%;
+    border: solid 2px black;
+    margin: 25px;
+}
+.content>:nth-child(1) :nth-child(2){
+    width: 25%;
+    height: 80%;
+    margin: 25px;
+    border: solid 2px black;
+}

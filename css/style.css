@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    position: relative;
+}
+.cuadro{
+    width: 20%;
+    height: 60%;
+    background-color: blueviolet;
+    display: flex;
+    position: absolute;
+    align-content: center;
+    bottom: 0;
+    right: 0;
+}
+.cuadrito{
+    width: 25%;
+    height: 80%;
+    margin: 12%;
+    background-color: black;
+}

@@ -10,18 +10,60 @@
     background-color: blue;
     display: grid;
     grid-template-columns: 20% 80%;
-
-}
-.container-padre div{
-    border: solid black;
 }
 .container-padre > :nth-child(1){
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, 1fr);
+    border: solid black;
+}
+.container-padre > :nth-child(1) div{
+    border-bottom: solid black;
 }
 .container-padre > :nth-child(2){
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 10% 90%;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 80%;
+}
+.grid2 > :nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.coso{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: gold;
+    border-bottom: solid black;
+}
+.coso2{
+    width: 90%;
+    height: 40%;
+    background-color: red;
+    border: solid black;
+}
+.circulo{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 30px;
+    border: solid black;
+}
+.equis{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

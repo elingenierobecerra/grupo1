@@ -7,7 +7,7 @@
     border: solid black;
     width: 100vw;
     height: 100vh;
-    
+    display: flex;
 }
 .container{
     width: 100vw;
@@ -85,5 +85,27 @@
 .derecha > :nth-child(2) > :nth-child(2) > :nth-child(3){
     background-color: transparent;
     border: 0px;
+}
+
+.content{
+    height: 70vw;
+    width: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.izquierda{
+    font-size: 40px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.img{
+    height: 120px;
+    width: 120px;
+    margin-top:50px;
 }
 
